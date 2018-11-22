@@ -20,7 +20,6 @@
     [super viewDidLoad];
     self.title = @"HowToCreatePod";
     self.view.backgroundColor = [UIColor whiteColor];
-
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
