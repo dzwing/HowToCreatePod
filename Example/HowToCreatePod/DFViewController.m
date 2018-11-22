@@ -7,6 +7,7 @@
 //
 
 #import "DFViewController.h"
+#import "DFTestViewController.h"
 
 @interface DFViewController ()
 
@@ -17,7 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"HowToCreatePod";
+    self.view.backgroundColor = [UIColor whiteColor];
+
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.navigationController pushViewController:[DFTestViewController new] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

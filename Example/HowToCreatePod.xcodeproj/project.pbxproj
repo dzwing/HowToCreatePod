@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1DA7ED3263784F87EBD89E9D /* Pods-HowToCreatePod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowToCreatePod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowToCreatePod_Example/Pods-HowToCreatePod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3DAD253796FE8FF2AFF0441D /* Pods_HowToCreatePod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowToCreatePod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A987CC3676CA46A48CB104E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4A987CC3676CA46A48CB104E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HowToCreatePod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToCreatePod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D894A7D8959E22CC31757B5 /* Pods-HowToCreatePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowToCreatePod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowToCreatePod_Tests/Pods-HowToCreatePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B2CAB40330166CFB1D5A17DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E9CE03AB51D3F0CCDD063FBA /* HowToCreatePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HowToCreatePod.podspec; path = ../HowToCreatePod.podspec; sourceTree = "<group>"; };
+		B2CAB40330166CFB1D5A17DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E9CE03AB51D3F0CCDD063FBA /* HowToCreatePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HowToCreatePod.podspec; path = ../HowToCreatePod.podspec; sourceTree = "<group>"; };
 		F7A3DF98597541BEFE3E2D6E /* Pods_HowToCreatePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowToCreatePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8745BF962A73C2A82C33A19 /* Pods-HowToCreatePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowToCreatePod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowToCreatePod_Example/Pods-HowToCreatePod_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -485,6 +485,7 @@
 			baseConfigurationReference = 1DA7ED3263784F87EBD89E9D /* Pods-HowToCreatePod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HowToCreatePod/HowToCreatePod-Prefix.pch";
 				INFOPLIST_FILE = "HowToCreatePod/HowToCreatePod-Info.plist";
@@ -500,6 +501,7 @@
 			baseConfigurationReference = F8745BF962A73C2A82C33A19 /* Pods-HowToCreatePod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HowToCreatePod/HowToCreatePod-Prefix.pch";
 				INFOPLIST_FILE = "HowToCreatePod/HowToCreatePod-Info.plist";
