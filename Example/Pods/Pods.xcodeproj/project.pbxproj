@@ -10,8 +10,6 @@
 		06051A63E3F9B049C94FA2B09A9C8084 /* DFTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7B1578A0FA4584A8DFEF313A3B534A /* DFTestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1154E823E7B169BFE2FEBE3E7B61EBCC /* DFTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E8F087DA8C8FC9AFB7D794DE6E0DF1 /* DFTestView.m */; };
 		16EC22B6DB0609714B5B66EB82A88416 /* DFTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 616EEA8BCEA7DF680E1B9D4C17E9AAE4 /* DFTestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D9727AC21A6A9EA0086F26C /* DFTestModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9727AA21A6A9EA0086F26C /* DFTestModel.h */; };
-		1D9727AD21A6A9EA0086F26C /* DFTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9727AB21A6A9EA0086F26C /* DFTestModel.m */; };
 		1E41932E610372CD883ADFF8A7E1CA92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		2A18DE8A367BC7CB3AE7674D0953AA43 /* HowToCreatePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 853280F1499B254422FBA27768AC6CCA /* HowToCreatePod-dummy.m */; };
 		5BEBA9168E62A65D41AF07BC61DE3BFE /* Pods-HowToCreatePod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52032DDEF2CAA772756E555D885112DB /* Pods-HowToCreatePod_Example-dummy.m */; };
@@ -45,8 +43,6 @@
 		0657319408076406651C1CD7DA12BF11 /* Pods-HowToCreatePod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowToCreatePod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0B4CA17725822B877C18DA5BD739B14B /* Pods-HowToCreatePod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HowToCreatePod_Tests-dummy.m"; sourceTree = "<group>"; };
 		11C6DDC788258FAD87A6A09A9157BAA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D9727AA21A6A9EA0086F26C /* DFTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTestModel.h; sourceTree = "<group>"; };
-		1D9727AB21A6A9EA0086F26C /* DFTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTestModel.m; sourceTree = "<group>"; };
 		227CD6B95B3F654E007C2AF89071B6B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		27CD070ECF3147361FEA11F52E6637C6 /* Pods-HowToCreatePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowToCreatePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3BEAB1A659C20CF4F79C9F1739C3510A /* HowToCreatePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HowToCreatePod-umbrella.h"; sourceTree = "<group>"; };
@@ -126,20 +122,9 @@
 			path = "Example/Pods/Target Support Files/HowToCreatePod";
 			sourceTree = "<group>";
 		};
-		1D9727A921A6A9EA0086F26C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				1D9727AA21A6A9EA0086F26C /* DFTestModel.h */,
-				1D9727AB21A6A9EA0086F26C /* DFTestModel.m */,
-			);
-			name = Model;
-			path = HowToCreatePod/Classes/Model;
-			sourceTree = "<group>";
-		};
 		261FA75AD7DD31EF3C0EF1ACDB559BFE /* HowToCreatePod */ = {
 			isa = PBXGroup;
 			children = (
-				1D9727A921A6A9EA0086F26C /* Model */,
 				D2C561ADEB9B9F4A0C5F727488D8875C /* View */,
 				5215EFE12FA855EAFE43BF88FA975715 /* ViewController */,
 				4DE4FC60BF727967D44B868B27D050D7 /* Pod */,
@@ -278,7 +263,6 @@
 			files = (
 				06051A63E3F9B049C94FA2B09A9C8084 /* DFTestView.h in Headers */,
 				16EC22B6DB0609714B5B66EB82A88416 /* DFTestViewController.h in Headers */,
-				1D9727AC21A6A9EA0086F26C /* DFTestModel.h in Headers */,
 				89D8E15267482EC1F3FC82E30DE704A0 /* HowToCreatePod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,7 +375,6 @@
 				1154E823E7B169BFE2FEBE3E7B61EBCC /* DFTestView.m in Sources */,
 				5CABC4E51AE177FBCBA35A13DAFC4E8B /* DFTestViewController.m in Sources */,
 				2A18DE8A367BC7CB3AE7674D0953AA43 /* HowToCreatePod-dummy.m in Sources */,
-				1D9727AD21A6A9EA0086F26C /* DFTestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
